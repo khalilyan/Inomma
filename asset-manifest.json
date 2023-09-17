@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inomma/static/css/main.aa37ea82.css",
-    "main.js": "/inomma/static/js/main.5baeabb8.js",
+    "main.css": "/inomma/static/css/main.0af7b4b4.css",
+    "main.js": "/inomma/static/js/main.8885fb70.js",
     "static/media/aboutImg.png": "/inomma/static/media/aboutImg.5625328572c54b49d572.png",
     "static/media/png": "/inomma/static/media/b1dc8f61e6031a8e124b.b1dc8f61e6031a8e124b.png",
     "static/media/noise.png": "/inomma/static/media/noise.e9b09a8897f14fabd7c0.png",
@@ -14,11 +14,11 @@
     "static/media/facebook.svg": "/inomma/static/media/facebook.12bddeadde52859c194de65441e2bebc.svg",
     "static/media/arrow-down.svg": "/inomma/static/media/arrow-down.ea65bbb922bcc5dc60a740c9c97688fd.svg",
     "static/media/arrow-right.svg": "/inomma/static/media/arrow-right.091491b140b7ecb9006818c2b979ab03.svg",
-    "main.aa37ea82.css.map": "/inomma/static/css/main.aa37ea82.css.map",
-    "main.5baeabb8.js.map": "/inomma/static/js/main.5baeabb8.js.map"
+    "main.0af7b4b4.css.map": "/inomma/static/css/main.0af7b4b4.css.map",
+    "main.8885fb70.js.map": "/inomma/static/js/main.8885fb70.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa37ea82.css",
-    "static/js/main.5baeabb8.js"
+    "static/css/main.0af7b4b4.css",
+    "static/js/main.8885fb70.js"
   ]
 }

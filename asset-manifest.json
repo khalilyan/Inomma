@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/inomma/static/css/main.a95e4296.css",
+    "main.js": "/inomma/static/js/main.5baeabb8.js",
+    "static/media/aboutImg.png": "/inomma/static/media/aboutImg.5625328572c54b49d572.png",
+    "static/media/png": "/inomma/static/media/b1dc8f61e6031a8e124b.b1dc8f61e6031a8e124b.png",
+    "static/media/noise.png": "/inomma/static/media/noise.e9b09a8897f14fabd7c0.png",
+    "static/media/Newake_Regular.woff2": "/inomma/static/media/Newake_Regular.b752481bb6b8e7fde630.woff2",
+    "static/media/Helvetica_Neue_Medium.woff2": "/inomma/static/media/Helvetica_Neue_Medium.751c19bd96c1fdbe6c88.woff2",
+    "static/media/logo.svg": "/inomma/static/media/logo.2a72c7158a5b3eb684dd53328501f7e2.svg",
+    "static/media/svg-sun.svg": "/inomma/static/media/svg-sun.6bab5947717f04b3f8d61f4f361e13d6.svg",
+    "static/media/linkedIn.svg": "/inomma/static/media/linkedIn.4b381c2855b9b688f734f81492220fee.svg",
+    "index.html": "/inomma/index.html",
+    "static/media/facebook.svg": "/inomma/static/media/facebook.12bddeadde52859c194de65441e2bebc.svg",
+    "static/media/arrow-down.svg": "/inomma/static/media/arrow-down.ea65bbb922bcc5dc60a740c9c97688fd.svg",
+    "static/media/arrow-right.svg": "/inomma/static/media/arrow-right.091491b140b7ecb9006818c2b979ab03.svg",
+    "main.a95e4296.css.map": "/inomma/static/css/main.a95e4296.css.map",
+    "main.5baeabb8.js.map": "/inomma/static/js/main.5baeabb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a95e4296.css",
+    "static/js/main.5baeabb8.js"
+  ]
+}

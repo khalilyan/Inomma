@@ -57,7 +57,7 @@ export default memo(function Carousel({content}) {
                         content.map( (item,index) =>{
                             return (
                                 <section  id='section' key={index} >
-                                    <h6 >{item.header}</h6>
+                                   <span style={{display: 'flex',gap: '15px'}} ><h6>Our</h6> <h6 style={{color: 'rgb(255, 110, 0)'}} >{item.header}</h6></span>
                                     <span>
                                     {item.text.split('.').map((word,i)=>{
                                         return <p key={i}>{word}</p>

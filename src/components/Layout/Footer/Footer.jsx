@@ -22,12 +22,12 @@ export default function Footer() {
             <div className="footerSlice3">
                 <ul className="socialList">
                     <li>
-                        <a>
+                        <a href='https://www.facebook.com/' >
                             <img src={facebook} alt="facebook" />
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href='https://www.linkedin.com/'>
                             <img src={linkedIn} alt="linkedIn" />
                         </a>
                     </li>

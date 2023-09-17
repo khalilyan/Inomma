@@ -1,19 +1,19 @@
 export const carouselData = [
     {
-        header: 'Our vision',
+        header: 'vision',
         text: `Be a reliable partner and drive client success
         through scaling globally.`,
         number: 1
     },
     {
-        header: 'Our mission',
+        header: 'mission',
         text: `Create a streamlined and highly performant
         destination for spending, while supporting
         expansions of gameplay on the web and mobile.`,
         number: 2
     },
     {
-        header: 'Our values',
+        header: 'values',
         text: `Ownership - treat the project as if it's yours.
         Openness - evaluating not only change but also
         the result/impact of that change.

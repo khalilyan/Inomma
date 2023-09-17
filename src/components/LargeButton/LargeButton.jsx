@@ -1,5 +1,6 @@
 import React from 'react'
 import './LargeButton.css'
+import './Responsive.css'
 import SymbolRender from '../symbolRender/SymbolRender'
 import RightBorderSVG from './RightBorder'
 import LeftBorderSVG from './LeftBorder'

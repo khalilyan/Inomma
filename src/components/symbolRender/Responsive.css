@@ -16,6 +16,20 @@
     .SymbolWrapper>p{
         font-size: 20px;
     }
+    .pseudo-text-effect::after {
+        font-size: 18px;
+        transform: translateY(120%);
+    }
+
+    
+    .SymbolWrapper:hover   .pseudo-text-effect{
+        transform: translateY(-150%);
+        flex: 1;
+    }
+    .SymbolWrapper:hover   .pseudo-text-effect::after {
+        transform: translateY(230%);
+    }
+
 }
 
 
@@ -31,5 +45,8 @@
 @media (max-width: 768.95px){
     .pseudo-text-effect::after{
         display: none;
+    }
+    .SymbolWrapper:hover   .pseudo-text-effect{
+        transform: translateY(0%);
     }
 }

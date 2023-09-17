@@ -1,0 +1,93 @@
+.SymbolWrapper {
+    position: relative;
+    user-select: none;
+    padding: 0;
+    overflow: hidden;
+    transition: transform 0.9s;
+    display: block;
+}
+.pseudo-text-effect::after {
+    content: attr(data-after);
+    display: inline-block;
+    font-family: "Helvetica Neue Medium";
+    transform: translateY(100%);
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    font-style: italic;
+    letter-spacing: 0px;
+    transition: inherit;
+
+}
+
+.pseudo-text-effect{
+    font-size: 24px;
+    line-height: 1.4;
+    color: rgb(137, 135, 119);
+    letter-spacing: 0px;
+
+    user-select: none;
+    will-change: transform;
+    transform-style: preserve-3d;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-property: all;
+    transform-origin: center bottom;
+    display: inline-block;
+}
+
+
+.SymbolWrapper{
+    visibility: visible;
+    display: inline-block;
+    transform: translateY(0%);
+    transition: inherit;
+    display: flex;
+}
+
+.SymbolWrapper p {
+    font-family: "Helvetica Neue Medium";
+}
+
+.SymbolWrapper:hover   .pseudo-text-effect{
+    transform: translateY(-100%);
+    flex: 1;
+}
+.SymbolWrapper:hover   .pseudo-text-effect::after {
+    transform: translateY(100%);
+}
+
+
+@media (min-width: 1920px)  {
+    .pseudo-text-effect::after {
+        transform: translateY(120%); 
+        font-size: 32px; 
+    }
+    .SymbolWrapper:hover   .pseudo-text-effect::after {
+        transform: translateY(100%);
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width: 1440.95px){
+    .SymbolWrapper>p{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1024.95px){
+    .SymbolWrapper>p{
+        font-size: 18px;
+    }
+   
+}
+
+
+
+@media (max-width: 768.95px){
+    .pseudo-text-effect::after{
+        display: none;
+    }
+}

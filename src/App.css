@@ -1,0 +1,43 @@
+.App{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Main{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+
+.scrollTopWrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    visibility: hidden;
+    z-index: 50;
+}
+
+.scrollTopWrapper svg {
+    width: 25px;
+    height: 25px;
+    margin: 0px 50px 50px 0px;
+    visibility: visible;
+    fill: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.scrollTopWrapper svg:hover {
+    opacity: 21;
+}

@@ -1,0 +1,290 @@
+.all-works-btn-wrapper{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    width: 545px;
+    height: 80px;
+}
+button p{
+    font-size: 25px;
+    color: white;
+}
+
+.bcdGUd {
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.bcdGUd::before {
+    display: block;
+    content: "";
+    height: 1.5px;
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 12px);
+    margin-top: -7px;
+    margin-left: 3px;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    z-index: 9;
+}
+
+.bcdGUd::after {
+    display: block;
+    content: "";
+    height: 2.5px;
+    background-color: rgb(255, 255, 255);
+    width: calc(100% - 8px);
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    z-index: 9;
+}
+
+
+.bcdGUd .button-left-border {
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    left: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+
+.bcdGUd .button-right-border {
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    right: 0px;
+    top: 0px;
+    z-index: 9;
+}
+
+
+.button-bottom-icons, .button-top-icons{
+    position: absolute;
+}
+
+.button-top-icons svg:first-child{
+    position: absolute;
+    transition: all 1s ease 0s;
+    transform: translate(-400%,-150%);
+    visibility: visible;
+}
+
+.button-top-icons svg:last-child{
+    position: absolute;
+    transition: all 1s ease 0s;
+    visibility: visible;
+    transform: translate(300%,-150%);
+}
+
+
+.bcdGUd:hover>.button-top-icons svg:first-child{
+    position: absolute;
+    transform: translate(-240%,-70%);
+    visibility: visible;
+}
+
+.bcdGUd:hover>.button-top-icons svg:last-child{
+    position: absolute;
+    visibility: visible;
+    transform: translate(150%,-70%);
+}
+
+
+
+.button-bottom-icons svg:first-child{
+    position: absolute;
+    transition: all 1s ease 0s;
+    transform: translate(-400%,150%);
+    visibility: visible;
+}
+
+.button-bottom-icons svg:last-child{
+    position: absolute;
+    transition: all 1s ease 0s;
+    visibility: visible;
+    transform: translate(300%,150%);
+}
+
+
+.bcdGUd:hover>.button-bottom-icons svg:first-child{
+    position: absolute;
+    transform: translate(-220%,-5%);
+    visibility: visible;
+}
+
+.bcdGUd:hover>.button-bottom-icons svg:last-child{
+    position: absolute;
+    visibility: visible;
+    transform: translate(70%,5%);
+}
+
+
+
+.bcdGUd:hover   .pseudo-text-effect{
+    transform: translateY(-100%);
+    flex: 1;
+}
+.bcdGUd:hover   .pseudo-text-effect::after {
+    transform: translateY(100%);
+}
+
+
+
+
+
+
+@media (min-width: 1920px){
+    .all-works-btn-wrapper{
+        padding-top: 180px;
+    }
+    button{
+        height: 104px;
+        max-width: 708px;
+    }
+    
+    .bcdGUd .SymbolWrapper div h1{
+       font-size: 35px;
+    }
+    .bcdGUd .SymbolWrapper{
+        width: 200%;
+    }
+    .bcdGUd:hover   .pseudo-text-effect::after {
+        transform: translateY(80%);
+    }
+    .bcdGUd {
+        height: 104px;
+    }
+
+
+    
+}
+
+@media (max-width: 1440.95px){
+    .bcdGUd {
+        height: 81px;
+    }
+    .all-works-btn-wrapper{
+        padding-top: 160px;
+    }
+}
+
+
+@media (max-width: 1024.95px){
+    .bcdGUd {
+        height: 74px;
+    }
+    .all-works-btn-wrapper{
+        padding: 140px 0px;
+    }
+}
+
+@media (max-width: 768.95px) {    
+    .bcdGUd:hover   .pseudo-text-effect{
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 640.95px){
+    .bcdGUd {
+        height: 72px;
+    }
+    .all-works-btn-wrapper{
+        padding: 0px;
+        padding-top: 80px;
+    }
+    button>.SymbolWrapper .pseudo-text-effect{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 460.95px){
+    button p{
+        font-size: 20px;
+        line-height: 5.15;
+    }
+}
+
+
+
+.all-works-btn-wrapper .all-works-btn {
+    color: rgb(255, 255, 255);
+    max-width: 708px;
+}
+
+@media (max-width: 1024.95px){
+    .bcdGUd.primary-small-button {
+        width: 545px;
+    }
+}
+@media (max-width: 1792.95px){
+    .bcdGUd.primary-small-button {
+        width: 545px;
+    }
+}
+@media (max-width: 1920.95px){
+    .bcdGUd.primary-small-button {
+        width: 545px;
+    }
+}
+
+
+@media (max-width: 640.95px){
+    .all-works-btn-wrapper .all-works-btn {
+        width: 343px;
+    }
+    
+    .bcdGUd:hover>.button-top-icons svg:first-child{
+        transform: translate(-190%,-70%) scale(80%);
+    }
+
+    .bcdGUd:hover>.button-top-icons svg:last-child{
+        transform: translate(100%,-70%) scale(80%);
+    }
+
+
+    .bcdGUd:hover>.button-bottom-icons svg:first-child{
+        transform: translate(-170%,-15%) scale(80%);
+    }
+
+    .bcdGUd:hover>.button-bottom-icons svg:last-child{
+        transform: translate(20%,-5%) scale(80%);
+    }
+}
+
+@media (max-width: 1024.95px){
+    .all-works-btn-wrapper .all-works-btn {
+        width: 497px;
+    }
+}
+@media (max-width: 1440.95px){
+    .all-works-btn-wrapper .all-works-btn {
+        width: 548px;
+    }
+}
+@media (max-width: 1792.95px){
+    .all-works-btn-wrapper .all-works-btn {
+        width: 648px;
+    }
+}

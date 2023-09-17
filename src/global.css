@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Newake';
+    src: url('./Newake_Regular.woff2') format('opentype');
+}
+
+@font-face {
+    font-family: "Helvetica Neue Medium";
+    src: url('./Helvetica_Neue_Medium.woff2') format('opentype');
+}
+
+
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body h1, h2, h3, h4, h5, h6{
+    font-family: 'Newake';
+}
+body p {
+    font-family: "Helvetica Neue Medium";
+    color: rgb(137, 135, 119);
+
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,22 @@
+.HeaderContain{
+    position: relative;
+    user-select: none;
+    pointer-events: none;
+}
+
+.HeaderWrapper{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: center;
+    mix-blend-mode: darken;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.HeaderWrapper h1{
+    font-family: "Newake";
+}

@@ -1,0 +1,12 @@
+.cursor{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin: -10px 0px 0px -10px;
+    background-color: rgb(43, 217, 224);
+    border-radius: 50%;
+    will-change: transform;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1000000000;
+}

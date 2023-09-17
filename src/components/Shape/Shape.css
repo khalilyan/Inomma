@@ -1,0 +1,48 @@
+.shapeContain{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+.Circle{
+    position: absolute;
+    border-radius: 50%;
+    will-change: transform;
+}
+
+
+.white{
+    width: 270px;
+    height: 270px;
+    margin: -135px 0px 0px -135px;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+}
+
+.orange{
+    width: 440px;
+    height: 440px;
+    margin: -220px 0px 0px -220px;
+    background-color: rgb(255, 110, 0);
+    z-index: 3;
+}
+
+.yellow{
+    width: 625px;
+    height: 625px;
+    margin: -325px 0px 0px -325px;
+    background-color: rgb(255, 194, 0);
+    z-index: 2;
+}
+
+.blueBehind{
+    width: 810px;
+    height: 810px;
+    margin: -412px 0px 0px -412px;
+    background-color: rgb(43, 217, 224);
+    z-index: 1;
+}

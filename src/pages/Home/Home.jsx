@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import './Responsive.css'
 import sunIcom from '../../assets/svg-sun.svg'
 import arrowDown from '../../assets/arrow-down.svg'
 import aboutImg from '../../assets/aboutImg.png'

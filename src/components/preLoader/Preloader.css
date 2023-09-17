@@ -26,3 +26,9 @@
         font-family: 'Newake';
     }   
 }
+
+@media (max-width: 768.95px) {
+    .texts-container h1{
+        font-size: 100px;
+    }   
+}

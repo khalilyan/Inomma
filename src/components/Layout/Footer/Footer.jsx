@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import './Responsive.css'
 import Navigation from '../Navigation/Navigation'
 import facebook from '../../../assets/facebook.svg'
 import linkedIn from '../../../assets/linkedIn.svg'

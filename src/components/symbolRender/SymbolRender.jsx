@@ -1,6 +1,6 @@
 import React from 'react'
 import './SymbolRenderAnimations.css'
-import { motion } from 'framer-motion'
+import './Responsive.css'
 
 export default function SymbolRender({text}) {
    const split = text.split(' ');

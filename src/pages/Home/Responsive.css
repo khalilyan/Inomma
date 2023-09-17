@@ -1,0 +1,309 @@
+
+
+@media (min-width: 1920px)  {
+    .first-section h1 {
+        font-size: 360px;
+    }
+    .scrollDownContain>img:nth-child(1){
+       width: 64px;
+       height: 64px;
+       bottom: 75px;
+       left: 150px;
+      }      
+      .scrollDownContain>img:nth-child(2){
+          width: 240px;
+          height: 240px
+      }
+      .circle-0,.circle-1,.circle-2 {
+        zoom: 170%;
+    }
+
+    .second-section{
+        justify-content: space-around;
+    }
+        
+    .aboutTxtContainer h1{
+        font-size: 150px;
+        margin-bottom: 64px;
+    }
+    .aboutTxtContainer .aboutTxt {
+        font-size: 40px;
+        opacity: 0.5;
+        width: 80%;
+        margin-left: auto;
+    }
+    .third-section h1{
+        font-size: 160px;
+        padding-top: 288px;
+    }  
+    .fourth-section{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .projectsHeader{
+        font-size: 200px;
+    }
+
+    .project-list{
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 188px;
+    }
+
+    .gYkKGF {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gYkKGF .project {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .gYkKGF img {
+        border-radius: 16px;
+        height: 666px;
+    }
+
+    .gPHGUk p {
+        font-family: "Helvetica Neue Medium";
+        line-height: 1.3;
+        font-size: 32px;
+    }
+
+    .project-1, .project-3 {
+        margin-right: 240px;
+        margin-bottom: 240px;
+    }
+
+    .project-2, .project-4{
+        margin-top: 240px;
+    }
+}
+
+@media (max-width: 1792.95px){
+    .third-section h1 {
+        font-size: 100px;
+    }
+}
+
+
+@media (max-width: 1534.95px){   
+    .project-1, .project-3 {
+        margin-right: 100px;
+    }
+
+    .project-2, .project-4{
+        margin-top: 100px;
+    } 
+}
+
+
+@media (max-width: 1440.95px){
+    .first-section h1 {
+        font-size: 200px;
+    }
+
+    .aboutTxtContainer h1 {
+        font-size: 88px;
+    }
+
+    .aboutTxt p {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .second-section img{
+        width: 506px;
+    }
+    .second-section h1{
+        font-size: 78px;
+    }
+    .third-section h1 {
+        font-size: 88px;
+        padding-top: 172px;
+    }
+
+    .gPHGUk p {
+        font-size: 20px;
+    }
+    .gYkKGF img {
+        height: 376px;
+    }
+
+    .project-1, .project-3 {
+        margin-right: 160px;
+    }
+
+    .project-2, .project-4{
+        margin-top: 160px;
+    } 
+}
+
+
+
+@media (max-width: 1144.95px){    
+    .second-section h1{
+        font-size: 64px;
+    }
+    .second-section img{
+        width: 356px;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 172px;
+    }
+    .project-1, .project-3 {
+        margin: 50px 0px;
+    }
+
+    .project-2, .project-4{
+        margin: 50px 0px;
+    } 
+    .projectsHeader{
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 1024.95px){
+    .first-section h1{
+        font-size: 140px;
+    }
+    .projectsHeader{
+        font-size: 80px;
+    }
+    .scrollDownContain{
+        left: -40px;
+        bottom: 0px;
+    }
+    .scrollDownContain img:nth-child(1){
+       width: 24px;
+       height: 24px;
+       left: 82px;
+    }
+    .scrollDownContain img:nth-child(2){
+        width: 140px;
+        height: 140px;
+    }
+    .third-section h1 {
+        font-size: 64px;
+        padding-top: 160px;
+    }
+}
+
+@media (max-width: 960.95px){
+    .second-section{
+        flex-direction: column;
+    }
+   .aboutTxtContainer{
+        width: 100%;
+        align-items: center;
+   }
+   .aboutHeader{
+    align-self: flex-start;
+    }
+    .aboutHeader h1{
+       font-size: 48px;
+       letter-spacing: 3px;
+   }
+   .aboutTxtContainer img {
+        width: 100%;
+        transform: translateY(0px);
+        margin-bottom: 24px;
+    }
+    .aboutTxtContainer .aboutTxt{
+        width: 100%;
+        gap: 12px;
+        line-height: .8
+    }
+    .aboutTxt p{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768.95px){
+    .first-section{
+        height: unset;
+    }
+    .first-section h1{
+        font-size: 86px;
+    }
+    .scrollDownContain{
+        left: -50px;
+        bottom: -150px;
+    }
+    
+    .scrollDownContain>img:nth-child(1){
+        width: 18px;
+        height: 18px;
+        left: 69px;
+        bottom: 47px;
+    }
+
+    .scrollDownContain>img:nth-child(2){
+        width: 120px;
+        height: 120px;
+    }
+
+
+}
+
+
+@media (max-width: 640.95px){
+    .third-section h1 {
+        padding-top: 148px;
+    }
+    .projectsHeader{
+        font-size: 50px;
+        padding-top: 0px;
+    }
+    .project-list{
+        margin-top: 60px;
+        justify-content: center;
+    }
+    .projectsHeader{
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 545.95px){
+    .project img{
+        height: 200px;
+    }
+    .project-list{
+        margin-top: 0px;
+    }
+    .aboutHeader{
+        font-size: 0px;   
+    }
+    .third-section h1 {
+        font-size: 58px;
+        margin-top: 172px;
+        padding: 0;
+    }
+
+    .first-section h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 460.95px){
+    .third-section h1 {
+        font-size: 35px;
+    }
+    .first-section h1 {
+        font-size: 65px;
+    }
+    .fourth-section h1 {
+        font-size: 65px;
+    }
+}

@@ -1,0 +1,96 @@
+
+
+@media (min-width: 1920px){
+    .footerContain{
+        padding: 56px;
+    }
+    .footerSlice2 svg {
+        color: rgb(41, 40, 35);
+        height: 256px;
+        margin-bottom: 32px;
+    }
+    .footerSlice2 svg {
+        user-select: none;
+        display: inline-block;
+        fill: currentcolor;
+        flex-shrink: 0;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 1.5rem;
+    }
+    .footerSlice2 p {
+        font-size: 26px;
+    }
+    .socialList img {
+        width: 40px;
+    }
+    .footerSlice3 p{
+        font-size: 40px;
+    }
+    .socialList img {
+        width: 32px;
+    }
+}
+
+
+@media (max-width: 1792.95px){
+    .footerSlice2 svg{
+        height: 194px
+    }
+}
+
+@media (max-width: 1440px){
+    .footerSlice2 svg{
+        height: 158px;
+    }
+    .footerSlice2 p {
+        font-size: 18px;
+    }
+    .socialList img {
+        width: 28px;
+    }
+}
+@media (max-width: 1024px){
+    .footerSlice2 svg{       
+        height: 100px;
+        margin-bottom: 64px;
+    }
+    .footerSlice2 p {
+        font-size: 16px;
+    }
+    .socialList img {
+        width: 24px;
+    }
+}
+
+
+
+@media (max-width: 640.95px){
+    footer{
+        display: flex;
+    }
+    .footerContain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        gap: 10px;
+    }
+    .footerSlice2{
+        position: static;
+        order: 1;
+        display: flex;
+        max-width: 90%;
+        align-self: center;
+    }
+    .footerSlice2 svg{       
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .footerSlice2 p {
+        font-size: 14px;
+    }
+    .footerSlice3{
+        width: 100%;
+    }
+}
+

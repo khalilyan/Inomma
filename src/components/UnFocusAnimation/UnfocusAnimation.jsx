@@ -1,5 +1,6 @@
 import React from 'react'
 import './UnFocusAnimation.css'
+import './Responsive.css'
 import { data } from './data'
 
 export default function UnfocusAnimation() {

@@ -1,5 +1,6 @@
 import React, { useEffect, useLayoutEffect } from 'react'
 import './Carousel.css'
+import './Responsive.css'
 import { useRef,useState } from 'react';
 import arrowRight from '../../assets/arrow-right.svg'
 import { memo } from 'react';
